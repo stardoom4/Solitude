@@ -396,7 +396,7 @@ comment:
     storage: .5
 
 twikoo: # https://twikoo.js.org/
-  envId: https://www.efu.me/ti/ # 你部署twikoo的地址
+  envId: https://everfu-twikoo.netlify.app/.netlify/functions/twikoo # 你部署twikoo的地址
   lang: "zh-CN" # 语言
   accessToken: # accessToken（在浏览器控制台cookies获取）
 
