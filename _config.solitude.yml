@@ -1,0 +1,505 @@
+site:
+  name:
+    class: text
+    custom: Ever Fu
+  # 网页icon
+  # Web icon
+  siteIcon: https://s3.qjqq.cn/47/66399928e7379.webp!color
+  icon: https://s3.qjqq.cn/47/66399928e7379.webp!color
+
+nav:
+  group:
+    项目: # 分类名称
+      Solitude: https://github.com/everfu/hexo-theme-solitude || https://s3.qjqq.cn/47/66399928e7379.webp!color # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+
+  menu:
+    文库: # 显示名称 / Display name
+      全部文章: /archives/ || st-folder-fill # 子菜单名称：路径 || 图标 / Submenu name: path || icon
+      分类列表: /categories/ || st-checkbox-multiple-blank-fill
+      标签列表: /tags/ || st-price-tag-fill
+    友链:
+      友情链接: /links/ || st-group-fill
+      宝藏博主: javascript:travelling() || st-gift-fill
+    关于:
+      音乐: /music/ || st-disc-fill
+      关于本站: /about/ || st-contacts-fill
+    留言板: /message/
+
+  right:
+    random: true # 随机文章跳转 / random post button
+    console: true #控制台 / console
+    custom:
+      - name: travelling - 友链接力 # 显示文字 / Displayed text
+        url: https://www.travellings.cn/go.html # 跳转链接 / Jump link
+        icon: st-train-line # 图标 / Icon
+        onclick: # 点击事件 / Click event
+        id: travellings_button # id
+
+carousel: false
+
+aside:
+  home:
+    noSticky: "about,newest_comment"
+    Sticky: "allInfo,ads"
+  post:
+    noSticky: "about"
+    Sticky: "newestPost,ads"
+  page:
+    noSticky: "about"
+    Sticky: "newestPost,allInfo,ads"
+  position: 1
+  card:
+    style: 1
+    author:
+      img: https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color
+      sticker:
+    url: /about/
+    content: 分享新知识，记录生活点滴。
+    content2: 本站由 Hexo 强力驱动，主题为 Solitude。
+    sayhello: # 样式为2时无效
+      morning: ✨ 早上好啊，新的一天开始了
+      noon: 中午应该休息一下咯
+      afternoon: 下午茶时间到了 🍵
+      night: 早睡早起身体好
+      goodnight: 晚安，好梦 😴
+    sayhello2: # 样式为2时无效
+      - 你会成功的
+      - 你一定会成功的
+      - 祝你好运，陌生人
+    information: # 样式为1时请不要超过4个
+      Github: https://github.com/everfu || st-github-line
+      Bilibili: https://space.bilibili.com/1329819902 || st-bilibili-line
+
+  toc:
+    post: true
+    page: false
+    vague: true
+
+  tags:
+    enable: true
+    limit: 20
+    highlight_list:
+    #  - Hexo
+
+  archive:
+    enable: false
+    # 显示类型
+    type: "month" # month: 按月 / year: 按年 : month: by month / year: by year
+
+  # 建站信息
+  # Website information
+  siteinfo:
+    # 文章数
+    # Number of articles
+    postcount: true
+    # 总字数
+    # The number of words on the web site
+    wordcount: true
+    # 访问量
+    # PV
+    pv: true
+    # 访客数
+    # UV
+    uv: true
+    # 最后更新日期
+    # Last update date
+    updatetime: false
+    # 建站时间
+    # Website creation time
+    runtimeenable: true
+    # 格式：yyyy-MM-dd hh-mm-ss
+    # Format: yyyy-MM-dd hh-mm-ss
+    runtime: "2023-04-20 00:00:00"
+
+# 首页文章配置信息
+# Configure information on the home page
+index_post_list:
+  direction: row # row / column
+  content: 2 # 1: post.description / 2: 自动获取description或截取内容(Automatically get descriptions or screenshots) / 3: 只使用截取内容(Use only screenshots) / false: 不显示内容(No content is displayed)
+  length: 200 # 截取内容的长度 : The length of the screenshot content
+  cover: both # left: 在左侧 : left / right: 在右侧 : right / both: 两侧 : both
+
+# 页面默认设置
+# page default settings
+page:
+  error: true # 404页面 / 404 page
+  tags: true # 标签页 /  Tags page
+  categories: true # 分类页 /  Categories page
+  default: # 默认值 /  Default value
+    # 默认图片
+    # default cover
+    cover:
+    # - /img/default.avif # 默认图片 / default cover
+
+# 文章页默认设置
+# post default settings
+post:
+  default:
+    # 文章默认图片
+    # default cover
+    cover:
+    # -  # 默认图片 / default cover
+    # 文章发布默认地址
+    # default post locate
+    locate: 衡阳
+    # 文章默认版权
+    # default post copyright
+    copyright:
+      enable: true
+      author:
+        url: /about/ # 点击头像跳转地址
+        img: # 显示头像，不填写默认显示site_icon
+      license: CC BY-NC-SA 4.0
+      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+  # 顶部文章简介
+  # Top article introduction
+  meta:
+    date: true # 发布日期 / Release date
+    updated: true # 更新日期 / Update date
+    locate: false # 位置 / Location
+    wordcount: true # 字数 / Number of words
+    readtime: true # 访问 / uv
+    pv: true # 浏览量 / pv
+    comment: true # 评论数 / Comment count
+  # 打赏
+  # reward
+  award:
+    enable: true
+    appreciators: /about # 赞赏记录 / Appreciative records
+    title: 感谢您的赞赏。
+    desc: 因为有你们的支持，我才体会到写文章的价值。
+    list:
+      - name: 爱发电
+        qcode: https://s3.qjqq.cn/47/661ba8e695f17.webp!color
+        url: https://afdian.net/a/everfu/
+        color: var(--efu-purple)
+      - name: 支付宝
+        qcode: https://s3.qjqq.cn/47/66374315ebd08.webp!color
+        url: https://s3.qjqq.cn/47/66374315ebd08.webp!color
+        color: var(--efu-blue)
+      - name: 微信
+        qcode: https://s3.qjqq.cn/47/663742bac8e52.webp!color
+        url: https://s3.qjqq.cn/47/663742bac8e52.webp!color
+        color: var(--efu-green)
+  # 分享按钮，需要是什么哪些按钮，填写后开启
+  share:
+    enable: true
+    list:
+      - qq
+      - weibo
+      - twitter
+      - facebook
+      - telegram
+      - whatsapp
+      - linkedin
+      - link
+      - qrcode
+  # 版权中订阅按钮跳转链接，填写地址后开启
+  # Subscription button jump link in copyright
+  rss: /atom.xml
+  covercolor:
+    enable: true
+    mode: api # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
+    api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
+    time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
+  footer:
+    enable: true
+    desc: 来自 Ever Fu 的文章。
+    button: # 跳转按钮
+      enable: false
+      name: More
+      url: /about/
+
+theme_color:
+  dark: "#ffc848"
+  dark_op: "#f2b94b23"
+  dark_op_deep: "#f2b94bdd"
+  dark_none: "#f2b94b00"
+  light: "#425AEF"
+  light_op: "#4259ef23"
+  light_op_deep: "#4259efdd"
+  light_none: "#4259ef01"
+
+display_mode:
+  type: auto
+  universe: false
+
+related_post:
+  enable: true
+  limit: 2
+  date_type: created
+
+footer:
+  information:
+    author: true
+    left:
+      Github: https://github.com/everfu || st-github-line
+      邮箱: mailto:o@efu.me || st-mail-line
+    right:
+      B站: https://space.bilibili.com/1329819902 || st-bilibili-line
+      抖音: https://v.douyin.com/iJsLc8jt/ || st-douyin-fill
+
+  group:
+    项目:
+      文档: https://solitude.js.org
+      地址: https://github.com/everfu/hexo-theme-solitude
+    赞助:
+      爱发电: https://afdian.net/a/everfu/
+      支付宝: https://s3.qjqq.cn/47/66374315ebd08.webp!color
+      微信: https://s3.qjqq.cn/47/663742bac8e52.webp!color
+  randomlink: true
+  privacy: /privacy/
+  license: /license/
+  links:
+    - name: 主题
+      url: https://github.com/everfu/hexo-theme-solitude
+    - name: 订阅
+      url: /atom.xml
+
+errorpage:
+  img: /img/404.avif
+  text: 请尝试站内搜索寻找文章
+  recommendList: true
+
+says:
+  enable: false
+  home_mini: false
+  style: 1
+  strip: 30
+
+recent_comments:
+  enable: true
+  limit: 50
+  cache: 0.2
+  console: true
+  page: /recentcomments/
+
+envelope:
+  enable: true
+  line: 10 # 显示行数
+  speed: 20 # 播放速度
+  hover: true # 鼠标悬停暂停
+  loop: true # 循环播放
+  page: /message/ # 留言板页面 / message board page
+
+meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r"
+
+music:
+  enable: true
+  id: 8407304077
+  server: netease
+  type: playlist
+  volume: 0.8
+  mutex: true
+
+capsule:
+  enable: true
+  id: 8407304077
+  server: netease
+  type: playlist
+
+copy:
+  enable: true
+  copyright:
+    enable: false
+    limit: 50 # word count. （字数）
+
+# 懒加载
+# lazyload
+lazyload:
+  enable: true
+  field: site # post, site
+  placeholder: /img/loading.avif
+  errorimg: /img/error_load.avif
+
+loading:
+  fullpage: true
+  pace: true
+
+highlight:
+  enable: true
+  limit: 200 # 代码行高限制 / Code line limit
+  copy: true # 是否开启复制按钮 / Whether to enable the copy button
+  expand: true # 是否默认展开 / Whether to expand by default
+  theme: mac # default: 默认 / mac : apple terminal
+  color: default # default: 默认  / solidity: solidity / dracula: dracula
+
+lightbox: true
+fancybox: true
+mediumZoom: false
+
+mermaid: true
+
+OpenGraph:
+  enable: true
+  options:
+  #  twitter_card:
+  #  twitter_image:
+  #  twitter_id:
+  #  twitter_site:
+  #  google_plus:
+  #  fb_admins:
+  #  fb_app_id:
+
+wordcount: true
+
+busuanzi: true
+busuanzi_use: 1 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
+
+search:
+  enable: true
+  type: local
+  tags:
+    - Solitude
+  algolia:
+  # hits:
+  #   per_page: 6
+  local:
+    preload: false
+    CDN:
+
+tianli_talk:
+  enable: true
+  title: 文章 AI
+  key: efd0a84058a25af978278dd67927c53195ba # https://ai.tianli0.top/?InviteID=OZ3Z0V2R
+  option: #https://ai.tianli0.top/codeMaker.html
+    defaultInput: true
+    upLoadWeb: true
+    userTitle: Efu Chat
+    userDesc: 我是 Efu Chat，一个由 Ever Fu 开发的聊天助手。
+    showInviteLink: 'https://ai.tianli0.top/?InviteID=OZ3Z0V2R'
+    blackDom:
+      - .aplayer
+post_ai:
+  enable: true
+  modelName: Efu Chat
+  key: efd0a84058a25af978278dd67927c53195ba
+  talk: 我是 Efu Chat，一个由 Ever Fu 开发的聊天助手。我负责文章的聊天展示。你不能直接与我交流，但我可以回答一些预设问题。
+  randomPost: true
+  report:
+  tips:
+
+katex:
+  enable: true
+  per_page: true # 是否在每页都加载 / Whether to load on each page
+  copytex: true # 是否开启复制公式 / Whether to enable copy formula
+
+comment:
+  use: twikoo # waline, twikoo, valine, artalk
+  commentBarrage: true # 热评开关 / Hot comment switch
+  lazyload: false # 懒加载
+  count: true # 评论数展示
+  pv: false # 是否使用評論統計頁面訪問
+  avatar: https://cravatar.cn # Gravatar link
+  newest_comment:
+    enable: true
+    storage: .5
+
+twikoo: # https://twikoo.js.org/
+  envId: https://www.efu.me/ti/ # 你部署twikoo的地址
+  lang: "zh-CN" # 语言
+  accessToken: # accessToken（在浏览器控制台cookies获取）
+
+
+artalk:
+  server: https://art.efu.me
+  site: efu.me # site name / 站点名
+  option: # options
+    locale: 'en-US'
+
+giscus:
+  repo: everfu/www.efu.me
+  repo_id: R_kgDOMCsj2A
+  category_id:
+  theme:
+    light: light
+    dark: dark
+  option:
+
+
+console_plus: true
+
+extends:
+  head: # 在head中插入 / Insert in head
+  # - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+  body: # 在body中插入 / Insert in body
+    - <script defer src="https://cloud.umami.is/script.js" data-website-id="d617a079-5af9-439a-b450-795385351a56"></script>
+
+pwa:
+  enable: false
+  manifest: /manifest.json # manifest.json 文件路径
+  theme_color: "#006a73" # 主题颜色
+  mask_icon: /img/pwa/favicon.ico # 遮罩图标
+  apple_touch_icon: /img/pwa/favicon.ico # 苹果触摸图标
+  bookmark_icon: /img/pwa/favicon.ico # 书签图标
+  favicon_32_32: /img/pwa/favicon_32.ico # 32x32图标
+  favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
+
+google_adsense:
+  enable: true
+  auto_ads: false # 自动广告关闭后则为手动广告 / After auto ads are turned off, it is manual ads
+  enable_page_level_ads: true # 页面级广告 / Page-level ads
+  aside_card: true # 侧边栏卡片广告 / Sidebar card ads（开启后自行到需要添加的页面使用：ads）
+  post_card: true # 文章卡片广告 / Post card ads（首页文章列表）
+  post_content: true # 文章内容广告 / Post content ads（文章内容底部广告）
+  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js # 谷歌广告js / Google Adsense js
+  # client id
+  # 无论是否开启自动广告，都需要填写 client id
+  # Whether to enable auto ads or not, you need to fill in the client id
+  client: ca-pub-6338523842252061 # ca-pub-XXXXXXXXXXXXXX
+  # slot id
+  # 只有关闭自动广告时才需要填写 slot id，可以在谷歌广告后台 按广告单元中创建广告位后获取
+  # Only when auto ads are turned off, you need to fill in the slot id, which can be obtained after creating an ad space in the Google Adsense background according to the ad unit
+  slot: # 4236388782
+
+right_menu:
+  enable: true
+  custom_list:
+    - name: 随即文章
+      click: toRandomPost()
+      id: menu-randomPost
+      class:
+      icon: st-signal-tower-fill
+    - name: 全部分类
+      click: pjax.loadUrl('/categories/') # 外链用 window.open，pjax 无法请求跨域内容
+      id:
+      class:
+      icon: st-checkbox-multiple-blank-fill
+    - name: 全部标签
+      click: pjax.loadUrl('/tags/')
+      id:
+      class:
+      icon: st-price-tag-fill
+    - name: 赞助主题
+      click: window.open('https://afdian.net/a/everfu/', '_blank')
+      id:
+      class:
+      icon: st-afdian-line
+
+
+CDN:
+  internal: local
+  third_party: custom
+  version: true
+  custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
+
+  option:
+    solitude_css: https://cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
+    busuanzi_qj_js: https://pv.lemonso.com/js
+    # algolia_search:
+    # instantsearch:
+    # pjax:
+    # twikoo:
+    # waline_js:
+    # waline_css:
+    # katex:
+    # katex_copytex:
+    # lazyload:
+    # aplayer_css:
+    # aplayer_js:
+    # meting_js:
+    # pace_js:
+    # swiper_css:
+    # swiper_js:
+    # busuanzi_js:
+    # snackbar_js:

@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+solitude
+node_modules
+pnpm-lock.yaml

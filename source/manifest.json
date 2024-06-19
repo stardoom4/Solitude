@@ -1,0 +1,91 @@
+{
+    "name": "Ever Fu",
+    "short_name": "Ever Fu",
+    "theme_color": "#0E83CD",
+    "background_color": "#0E83CDdd",
+    "description": "嘿，我是 Ever Fu，一个开源工作者，对 Web 开发和设计充满热情。目前是一名在校生，希望我的开发能够给你代码帮助。",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "lang": "zh-CN",
+    "id": "/",
+    "icons": [
+      {
+        "src": "https://s3.qjqq.cn/47/663999deb00f4.webp!color",
+        "sizes": "16x16",
+        "type": "image/webp",
+        "purpose": "any"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/663999deb00f4.webp!color",
+        "sizes": "16x16",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/663999c46d48d.webp!color",
+        "sizes": "32x32",
+        "type": "image/webp",
+        "purpose": "any"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/663999c46d48d.webp!color",
+        "sizes": "32x32",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/663999a5ee230.webp!color",
+        "sizes": "64x64",
+        "type": "image/webp",
+        "purpose": "any"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/663999a5ee230.webp!color",
+        "sizes": "64x64",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/66399928e7379.webp!color",
+        "sizes": "128x128",
+        "type": "image/webp",
+        "purpose": "any"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/66399928e7379.webp!color",
+        "sizes": "128x128",
+        "type": "image/webp",
+        "purpose": "maskable"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/66399a6ff1259.webp!color",
+        "sizes": "144x144",
+        "type": "image/webp",
+        "purpose": "any"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/66399a6ff1259.webp!color",
+        "sizes": "144x144",
+        "type": "image/webp",
+        "purpose": "maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "https://s3.qjqq.cn/47/6639aa3c48fb8.webp!water",
+        "sizes": "430x932",
+        "type": "image/webp",
+        "form_factor": "narrow",
+        "label": "on iPhone 14 Pro Max"
+      },
+      {
+        "src": "https://s3.qjqq.cn/47/6639ab2b7d082.webp!water",
+        "sizes": "2160x1440",
+        "type": "image/webp",
+        "form_factor": "wide",
+        "label": "on desktop"
+      }
+    ],
+    "splash_pages": null
+  }
