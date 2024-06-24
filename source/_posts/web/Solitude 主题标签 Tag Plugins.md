@@ -15,6 +15,94 @@ description: 本文档为 Solitude 主题内置标签的使用说明，包括按
 ai: false
 ---
 
+## 按钮 btns
+
+{% tabs btns %}
+<!-- tab 标签语法 -->
+
+```markdown
+{% btns [style] [layout] [size] %}
+{% cell [text],[url],[icon] %}
+{% endbtns %}
+```
+
+<!-- endtab -->
+
+<!-- tab 配置参数 -->
+
+1. 圆角样式：rounded, circle
+2. 增加文字样式：可以在容器内增加 **标题** 和 **描述文字**
+3. 布局方式：默认为自动宽度，适合视野内只有一两个的情况。
+
+| 参数    | 含义   |
+|-------|------|
+| wide | 宽度自适应 |
+| fill | 宽度填充 |
+| center | 居中 |
+| around | 均分 |
+| gird2 | 2列 |
+| gird3 | 3列 |
+| gird4 | 4列 |
+| gird5 | 5列 |
+
+<!-- endtab -->
+
+<!-- tab 样式预览 -->
+
+**如果需要显示类似「团队成员」之类的一组含有头像的链接：**
+
+{% btns circle grid5 %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% endbtns %}
+
+**或者含有图标的按钮：**
+{% btns rounded grid5 %}
+{% cell 下载源码, /, solitude st-link-m-line %}
+{% cell 查看文档, /, solitude st-information-fill %}
+{% endbtns %}
+
+**圆形图标 + 标题 + 描述 + 图片 + 网格 5 列 + 居中**
+{% btns circle center grid5 %}
+<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1' class="no-text-decoration">
+<i class='anzhiyufont anzhiyu-icon-heartbeat'></i>
+<b>心率管家</b>
+{% p red, 专业版 %}
+<img src='https://bu.dusays.com/2023/06/01/64787e2a1347c.png'>
+</a>
+<a href='https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1' class="no-text-decoration">
+<i class='anzhiyufont anzhiyu-icon-heartbeat'></i>
+<b>心率管家</b>
+{% p green, 免费版 %}
+<img src='https://bu.dusays.com/2023/06/01/64787e515e261.png'>
+</a>
+{% endbtns %}
+<!-- endtab -->
+
+<!-- tab 演示源码 -->
+
+```markdown
+{% btns circle grid5 %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% endbtns %}
+
+{% btns rounded grid5 %}
+{% cell 下载源码, /, solitude st-link-m-line %}
+{% cell 查看文档, /, solitude st-information-fill %}
+{% endbtns %}
+```
+
+<!-- endtab -->
+
+{% endtabs %}
+
 ## 按钮 btn
 
 {% tabs btn %}
