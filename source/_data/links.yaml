@@ -164,6 +164,10 @@
             descr: BAIHE，日常分享数据及产品相关知识及生活感悟
             link: https://blog.baispace.cn
             avatar: https://s3.qjqq.cn/47/665aeecccb0da.webp!color
+          - name: SerMs
+            link: https://blog.serms.top
+            avatar: https://s3.qjqq.cn/47/66797eb8ab8ae.png!color
+            descr: 代码如诗，细节成就极致，逻辑成就完美。
       - class_name: 生活
         descr: 谁还没个生活呢，按添加先后排列
         type: item
@@ -270,3 +274,7 @@
             descr: Nodeseek is a place for people who love web development, hosting, vps / server and other geek things.
             link: https://www.nodeseek.com/
             avatar: https://s3.qjqq.cn/47/6621313097d5f.webp!color
+          - name: OfferNow
+            descr: 让每个人了解计算机、编程、AI
+            link: https://www.offernow.cn
+            avatar: https://s3.qjqq.cn/47/66797f2a54f27.png!color
