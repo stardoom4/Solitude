@@ -39,8 +39,6 @@ nav:
         icon: st-robot-fill
         id: post_chat_button
 
-carousel: false
-
 aside:
   home:
     noSticky: "about,newest_comment"
@@ -204,7 +202,7 @@ post:
   rss: /atom.xml
   covercolor:
     enable: true
-    mode: api # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
+    mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
   footer:
@@ -483,7 +481,7 @@ right_menu:
 
 
 CDN:
-  internal: cdnjs
+  internal: local
   third_party: cdnjs
   version: true
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}

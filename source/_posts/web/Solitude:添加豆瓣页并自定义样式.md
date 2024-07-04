@@ -9,7 +9,6 @@ cover: 'https://s3.qjqq.cn/47/66225241c85f6.webp!color'
 abbrlink: a2fcd92c
 date: 2024-03-28 08:00:00
 update: 2024-03-28 08:00:00
-recommend: true
 ---
 
 {% note info simple %}

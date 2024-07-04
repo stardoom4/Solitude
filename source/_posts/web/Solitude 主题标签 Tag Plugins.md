@@ -3,14 +3,13 @@ title: 主题标签 Tag Plugins
 abbrlink: e19cb4b7
 date: 2024-05-04 15:37
 update: 2024-05-04 15:37
-recommend: true
 categories:
   - 网站搭建
 tags:
   - Tags Plugin
 cover: https://s3.qjqq.cn/47/661f2977a46c2.webp!color
 comment: true
-sticky: 1
+sticky: 2
 description: 本文档为 Solitude 主题内置标签的使用说明，包括按钮、图片、音频、视频、标签、时间轴、折叠块、外链、复选列表等。
 ai: false
 ---
