@@ -29,3 +29,18 @@ categories:
 sticky: 1
 ---
 ```
+
+## 文章封面尺寸大小
+
+根据 Heo 的设计，使用 `508x225` 的尺寸作为文章封面的大小。
+
+## 使用青秸的卜算子
+
+```yaml
+busuanzi: true
+busuanzi_use: 1 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
+CDN:
+  option:
+    busuanzi_qj_js: https://pv.lemonso.com/js
+```
+
