@@ -42,13 +42,13 @@ nav:
 aside:
   home:
     noSticky: "about,newest_comment"
-    Sticky: "allInfo,ads"
+    Sticky: "allInfo"
   post:
     noSticky: "about"
-    Sticky: "newestPost,ads"
+    Sticky: "newestPost"
   page:
     noSticky: "about"
-    Sticky: "newestPost,allInfo,ads"
+    Sticky: "newestPost,allInfo"
   position: 1
   card:
     style: 1
@@ -426,7 +426,6 @@ extends:
   head: # 在head中插入 / Insert in head
   # - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   body: # 在body中插入 / Insert in body
-    - <script defer src="https://cloud.umami.is/script.js" data-website-id="d617a079-5af9-439a-b450-795385351a56"></script>
 
 pwa:
   enable: false
@@ -440,7 +439,7 @@ pwa:
 
 google_adsense:
   enable: true
-  auto_ads: false # 自动广告关闭后则为手动广告 / After auto ads are turned off, it is manual ads
+  auto_ads: true # 自动广告关闭后则为手动广告 / After auto ads are turned off, it is manual ads
   enable_page_level_ads: true # 页面级广告 / Page-level ads
   aside_card: true # 侧边栏卡片广告 / Sidebar card ads（开启后自行到需要添加的页面使用：ads）
   post_card: true # 文章卡片广告 / Post card ads（首页文章列表）
