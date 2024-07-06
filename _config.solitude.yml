@@ -42,13 +42,13 @@ nav:
 aside:
   home:
     noSticky: "about,newest_comment"
-    Sticky: "allInfo"
+    Sticky: "allInfo,ads"
   post:
     noSticky: "about"
-    Sticky: "newestPost"
+    Sticky: "newestPost,ads"
   page:
     noSticky: "about"
-    Sticky: "newestPost,allInfo"
+    Sticky: "newestPost,allInfo,ads"
   position: 1
   card:
     style: 1
@@ -439,7 +439,7 @@ pwa:
 
 google_adsense:
   enable: true
-  auto_ads: true # 自动广告关闭后则为手动广告 / After auto ads are turned off, it is manual ads
+  auto_ads: false # 自动广告关闭后则为手动广告 / After auto ads are turned off, it is manual ads
   enable_page_level_ads: true # 页面级广告 / Page-level ads
   aside_card: true # 侧边栏卡片广告 / Sidebar card ads（开启后自行到需要添加的页面使用：ads）
   post_card: true # 文章卡片广告 / Post card ads（首页文章列表）
