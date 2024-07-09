@@ -38,6 +38,67 @@ nav:
         icon: st-robot-fill
         id: post_chat_button
 
+hometop:
+  enable: true # 是否打开 / if enable
+  # banner display
+  banner:
+    # 左上角显示大文字
+    # Large text displayed in the upper left corner
+    # tip：可使用html标签
+    # tip: html tags be used
+    title: 宁静致远<br>热爱生活
+    # 左上角显示小文字
+    # Small text displayed in the upper left corner
+    url: Hexo Theme Solitude
+    # 轮播icon
+    # Carousel icon
+    # tip: 76x76 size
+    icon:
+      HTML: # 名字 / Name
+        img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
+        color: "#e9572b" # 背景色 / Background color
+      JS:
+        img: https://7.isyangs.cn/34/65f2e43ceddda-34.png
+        color: "#f7cb4f"
+      Docker:
+        img: https://7.isyangs.cn/34/65f2e45462045-34.png
+        color: "#57b6e6"
+      Flutter:
+        img: https://7.isyangs.cn/34/65f2e47acbe98-34.png
+        color: "#ffffff"
+      WebPack:
+        img: https://7.isyangs.cn/34/65f2e488bf8ed-34.png
+        color: "#2e3a41"
+      Git:
+        img: https://7.isyangs.cn/34/65f2e499066fa-34.png
+        color: "#df5b40"
+
+  # 左下跳转按钮
+  # Banner lower left jump button
+  group:
+  # 热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
+  # 教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
+  # 精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
+
+  # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
+  # Right top list (add "recommend: true" in the front matter of the article)
+  recommendList:
+    # 左上角显示文字
+    # Large text displayed in the upper left corner
+    sup: 置顶
+    # 左下角大字
+    # Large text in the lower left corner
+    title: Solitude 主题文档
+    # 点击跳转链接
+    # Click the jump link
+    url: https://solitude.js.org/
+    # 显示背景图片
+    # Display background image
+    img: https://s3.qjqq.cn/47/668da89f2b920.png!color
+    # 阴影颜色
+    # Shadow color
+    color: "none"
+
 aside:
   home:
     noSticky: "about"
@@ -469,6 +530,35 @@ memorial:
     - "7-7" # 七七事变
     - "9-18" # 九一八事变/建军节
     - "12-13" # 南京国家公祭日
+
+lure:
+  enable: true
+  # 跳出
+  # Jump out
+  jump: "404 Not Found"
+  # 切回
+  # Switch back
+  back: "ヾ(≧∇≦*)ゝ嘿嘿，上当了吧"
+
+# 文章过期提醒
+# Article expiration reminder
+expire:
+  enable: true
+  # 过期时间
+  # Expiration time
+  time: 60 # 30天 / 30 days
+  position: top # top / bottom
+  # 过期提示
+  # Expiration prompt
+  text_prev: "本文已于"
+  text_next: "天前过期，如果内容不符，请联系站长更新。"
+
+# 背景图片
+# Background image
+background:
+  enable: true
+  img: https://img.truimo.com/2022/807b270630a51.jpg
+  opacity: 0.2
 
 CDN:
   internal: local
