@@ -23,7 +23,6 @@ nav:
     关于:
       音乐: /music/ || st-disc-fill
       关于本站: /about/ || st-contacts-fill
-    留言板: /message/
 
   right:
     random: true # 随机文章跳转 / random post button
@@ -41,14 +40,14 @@ nav:
 
 aside:
   home:
-    noSticky: "about,newest_comment"
-    Sticky: "allInfo,ads"
+    noSticky: "about"
+    Sticky: "allInfo"
   post:
     noSticky: "about"
-    Sticky: "newestPost,ads"
+    Sticky: "newestPost"
   page:
     noSticky: "about"
-    Sticky: "newestPost,allInfo,ads"
+    Sticky: "newestPost,allInfo"
   position: 1
   card:
     style: 1
@@ -116,7 +115,7 @@ aside:
 # 首页文章配置信息
 # Configure information on the home page
 index_post_list:
-  direction: row # row / column
+  direction: column # row / column
   column: 2 #2:2列 3:3列
   content: 2 # 1: post.description / 2: 自动获取description或截取内容(Automatically get descriptions or screenshots) / 3: 只使用截取内容(Use only screenshots) / false: 不显示内容(No content is displayed)
   length: 200 # 截取内容的长度 : The length of the screenshot content
@@ -163,7 +162,7 @@ post:
     wordcount: true # 字数 / Number of words
     readtime: true # 访问 / uv
     pv: true # 浏览量 / pv
-    comment: true # 评论数 / Comment count
+    comment: false # 评论数 / Comment count
   # 打赏
   # reward
   award:
@@ -234,7 +233,7 @@ related_post:
 
 footer:
   information:
-    author: true
+    author: false
     left:
       Github: https://github.com/everfu || st-github-line
       邮箱: mailto:o@efu.me || st-mail-line
@@ -271,14 +270,14 @@ says:
   strip: 30
 
 recent_comments:
-  enable: true
+  enable: false
   limit: 50
   cache: 0.2
   console: true
   page: /recentcomments/
 
 envelope:
-  enable: true
+  enable: false
   line: 10 # 显示行数
   speed: 20 # 播放速度
   hover: true # 鼠标悬停暂停
@@ -347,7 +346,7 @@ OpenGraph:
 wordcount: true
 
 busuanzi: true
-busuanzi_use: 1 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
+busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 
 search:
   enable: true
@@ -388,8 +387,8 @@ katex:
   copytex: true # 是否开启复制公式 / Whether to enable copy formula
 
 comment:
-  use: twikoo # waline, twikoo, valine, artalk
-  commentBarrage: true # 热评开关 / Hot comment switch
+  use: # waline, twikoo, valine, artalk
+  commentBarrage: false # 热评开关 / Hot comment switch
   lazyload: false # 懒加载
   count: true # 评论数展示
   pv: false # 是否使用評論統計頁面訪問
@@ -403,24 +402,7 @@ twikoo: # https://twikoo.js.org/
   lang: "zh-CN" # 语言
   accessToken: # accessToken（在浏览器控制台cookies获取）
 
-
-artalk:
-  server: https://art.efu.me
-  site: efu.me # site name / 站点名
-  option: # options
-    locale: 'en-US'
-
-giscus:
-  repo: everfu/www.efu.me
-  repo_id: R_kgDOMCsj2A
-  category_id:
-  theme:
-    light: light
-    dark: dark
-  option:
-
-
-console_plus: true
+console_plus: false
 
 extends:
   head: # 在head中插入 / Insert in head
@@ -438,7 +420,7 @@ pwa:
   favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
 
 google_adsense:
-  enable: true
+  enable: false
   auto_ads: false # 自动广告关闭后则为手动广告 / After auto ads are turned off, it is manual ads
   enable_page_level_ads: true # 页面级广告 / Page-level ads
   aside_card: true # 侧边栏卡片广告 / Sidebar card ads（开启后自行到需要添加的页面使用：ads）
