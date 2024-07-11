@@ -419,7 +419,7 @@ search:
   #   per_page: 6
   local:
     preload: false
-    CDN:
+    CDN: /Solitude/search.xml
 
 tianli_talk:
   enable: true
