@@ -23,10 +23,10 @@ nav:
     关于:
       音乐: /music/ || st-disc-fill
       关于本站: /about/ || st-contacts-fill
+    留言板: /message/
 
   right:
     random: true # 随机文章跳转 / random post button
-    console: true #控制台 / console
     custom:
       - name: travelling - 友链接力 # 显示文字 / Displayed text
         url: https://www.travellings.cn/go.html # 跳转链接 / Jump link
@@ -54,31 +54,31 @@ hometop:
     # Carousel icon
     # tip: 76x76 size
     icon:
-      HTML: # 名字 / Name
-        img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
-        color: "#e9572b" # 背景色 / Background color
-      JS:
-        img: https://7.isyangs.cn/34/65f2e43ceddda-34.png
-        color: "#f7cb4f"
-      Docker:
-        img: https://7.isyangs.cn/34/65f2e45462045-34.png
-        color: "#57b6e6"
-      Flutter:
-        img: https://7.isyangs.cn/34/65f2e47acbe98-34.png
-        color: "#ffffff"
-      WebPack:
-        img: https://7.isyangs.cn/34/65f2e488bf8ed-34.png
-        color: "#2e3a41"
-      Git:
-        img: https://7.isyangs.cn/34/65f2e499066fa-34.png
-        color: "#df5b40"
+#      HTML: # 名字 / Name
+#        img: https://7.isyangs.cn/34/65f2e42921677-34.png # 图片 / Image
+#        color: "#e9572b" # 背景色 / Background color
+#      JS:
+#        img: https://7.isyangs.cn/34/65f2e43ceddda-34.png
+#        color: "#f7cb4f"
+#      Docker:
+#        img: https://7.isyangs.cn/34/65f2e45462045-34.png
+#        color: "#57b6e6"
+#      Flutter:
+#        img: https://7.isyangs.cn/34/65f2e47acbe98-34.png
+#        color: "#ffffff"
+#      WebPack:
+#        img: https://7.isyangs.cn/34/65f2e488bf8ed-34.png
+#        color: "#2e3a41"
+#      Git:
+#        img: https://7.isyangs.cn/34/65f2e499066fa-34.png
+#        color: "#df5b40"
 
   # 左下跳转按钮
   # Banner lower left jump button
   group:
-  # 热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
-  # 教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
-  # 精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
+     热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
+     教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
+     精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
 
   # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
   # Right top list (add "recommend: true" in the front matter of the article)
@@ -262,7 +262,7 @@ post:
   rss: /atom.xml
   covercolor:
     enable: true
-    mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
+    mode: api # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
   footer:
@@ -331,14 +331,14 @@ says:
   strip: 30
 
 recent_comments:
-  enable: false
+  enable: true
   limit: 50
   cache: 0.2
   console: true
   page: /recentcomments/
 
 envelope:
-  enable: false
+  enable: true
   line: 10 # 显示行数
   speed: 20 # 播放速度
   hover: true # 鼠标悬停暂停
@@ -448,7 +448,7 @@ katex:
   copytex: true # 是否开启复制公式 / Whether to enable copy formula
 
 comment:
-  use: # waline, twikoo, valine, artalk
+  use: twikoo # waline, twikoo, valine, artalk
   commentBarrage: false # 热评开关 / Hot comment switch
   lazyload: false # 懒加载
   count: true # 评论数展示
@@ -457,13 +457,23 @@ comment:
   newest_comment:
     enable: true
     storage: .5
+  hot_tip: # 多人互动
+    enable: true # 开启后将在文章列表显示多人互动
+    count: 3 # 设置大于多少评论时显示
 
 twikoo: # https://twikoo.js.org/
   envId: https://everfu-twikoo.netlify.app/.netlify/functions/twikoo # 你部署twikoo的地址
   lang: "zh-CN" # 语言
   accessToken: # accessToken（在浏览器控制台cookies获取）
 
-console_plus: false
+console:
+  enable: true
+  recentComment:
+    enable: true
+    storage: .2
+  card:
+    tags: true
+    archive: true
 
 extends:
   head: # 在head中插入 / Insert in head

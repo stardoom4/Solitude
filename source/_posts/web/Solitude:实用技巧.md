@@ -9,6 +9,7 @@ categories:
   - Solitude
 abbrlink: 2135ef16
 date: 2024-07-04 00:00:00
+not_cover: true
 cover: https://s3.qjqq.cn/47/668696d14d29c.gif!color
 ---
 

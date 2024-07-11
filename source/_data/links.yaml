@@ -52,7 +52,7 @@
         link_list:
           - name: isYangs   # 友链名称
             link: https://isyangs.cn    # 友链地址
-            avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg  # 显示头像
+            avatar: https://s3.qjqq.cn/47/660a81b6dcdca.webp!color  # 显示头像
             descr: 一个前端Bug构造师的博客    # 友链简介
           - name: Sh1n3zZ
             link: https://www.yizhicheng.com
