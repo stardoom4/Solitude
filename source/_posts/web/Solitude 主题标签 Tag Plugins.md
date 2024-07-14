@@ -52,11 +52,11 @@ ai: false
 **如果需要显示类似「团队成员」之类的一组含有头像的链接：**
 
 {% btns circle grid5 %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
 {% endbtns %}
 
 **或者含有图标的按钮：**
@@ -86,11 +86,11 @@ ai: false
 
 ```markdown
 {% btns circle grid5 %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://bu.dusays.com/2023/06/01/64787e6a5816d.png %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
+{% cell xaoxuu, https://everfu.org, https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color %}
 {% endbtns %}
 
 {% btns rounded grid5 %}
@@ -148,46 +148,46 @@ larger/留空
 
 > 一组按钮
 
-This is my website, click the btn {% btn 'https://efu.me/',Efu %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu %}
 
-This is my website, click the btn {% btn 'https://efu.me/',Efu,st-lightbulb-line %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu,st-lightbulb-line %}
 
-This is my website, click the btn {% btn 'https://efu.me/',Efu,,outline %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu,,outline %}
 
-This is my website, click the btn {% btn 'https://efu.me/',Efu,st-lightbulb-line,outline %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline %}
 
-This is my website, click the btn {% btn 'https://efu.me/',Efu,st-lightbulb-line,larger %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,larger %}
 
 > 调整位置或大小
 
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,block %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,block %}
 
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,block center larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,block center larger %}
 
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,block right larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,block right larger %}
 
 > more than one btn in center
 
 <span>
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,larger %}
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,bg-blue larger %}
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,bg-pink larger %}
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,bg-red larger %}
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,bg-purple larger %}
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,bg-orange larger %}
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,bg-green larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,bg-blue larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,bg-pink larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,bg-red larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,bg-purple larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,bg-orange larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,bg-green larger %}
 </span>
 
 > 居中按钮
 
 <div align="center">
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,outline larger %}
-{% btn 'https://efu.me/',Efu, st-lightbulb-line,outline blue larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,pink larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,red larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,purple larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,orange larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,green larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,outline larger %}
+{% btn 'https://everfu.org',Ever Fu, st-lightbulb-line,outline blue larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,pink larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,red larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,purple larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,orange larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,green larger %}
 </div>
 
 <!-- endtab -->
@@ -197,40 +197,40 @@ This is my website, click the btn {% btn 'https://efu.me/',Efu,st-lightbulb-line
 ```markdown
 > 一组按钮
 
-This is my website, click the btn {% btn 'https://efu.me/',Efu %}
-This is my website, click the btn {% btn 'https://efu.me/',Efu,st-lightbulb-line %}
-This is my website, click the btn {% btn 'https://efu.me/',Efu,,outline %}
-This is my website, click the btn {% btn 'https://efu.me/',Solitude,st-lightbulb-line,outline %}
-This is my website, click the btn {% btn 'https://efu.me/',Solitude,st-lightbulb-line,larger %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu,st-lightbulb-line %}
+This is my website, click the btn {% btn 'https://everfu.org',Ever Fu,,outline %}
+This is my website, click the btn {% btn 'https://everfu.org',Solitude,st-lightbulb-line,outline %}
+This is my website, click the btn {% btn 'https://everfu.org',Solitude,st-lightbulb-line,larger %}
 
 > 调整位置或大小
 
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,block %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,block center larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,block right outline larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,block %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,block center larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,block right outline larger %}
 
 > more than one btn in center
 
 <span>
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,blue larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,pink larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,red larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,purple larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,orange larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,green larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,blue larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,pink larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,red larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,purple larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,orange larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,green larger %}
 </span>
 
 > 居中按钮
 
 <div class="btn-center">
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,outline larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,outline blue larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,outline pink larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,outline red larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,outline purple larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,outline orange larger %}
-{% btn 'https://efu.me/',Efu,st-lightbulb-line,outline green larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline blue larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline pink larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline red larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline purple larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline orange larger %}
+{% btn 'https://everfu.org',Ever Fu,st-lightbulb-line,outline green larger %}
 </div>
 ```
 
@@ -1048,18 +1048,18 @@ est excepturi facere molestias nam, omnis perspiciatis quas, repellendus sit. Ip
 <!-- endtab -->
 
 <!-- tab 样式预览 -->
-{% link Solitude,官方文档地址,https://solitude-docs.efu.me/ %}
+{% link Solitude,官方文档地址,https://solitude.js.org/ %}
 
 {% link 知乎,有问题，就会有答案,https://www.zhihu.com/ %}
 
-{% link Efu,作者博客,https://efu.me/ %}
+{% link Ever Fu,作者博客,https://everfu.org %}
 
 <!-- endtab -->
 
 <!-- tab 演示源码 -->
 
 ```markdown
-{% link Solitude,官方文档地址,https://solitude-docs.efu.me/ %}
+{% link Solitude,官方文档地址,https://solitude.js.org/ %}
 
 {% link 知乎,有问题，就会有答案,https://www.zhihu.com/ %}
 ```
@@ -1236,7 +1236,7 @@ Demo 2 - title + open
 
 {% note danger simple %}
 
-如果使用了 gulp 一定要关闭使用过 mermaid 的页面，具体看[文档详情](https://solitude-docs.efu.me/high-configuration/advanced#gulp)
+如果使用了 gulp 一定要关闭使用过 mermaid 的页面，具体看[文档详情](https://solitude.js.org/high-configuration/advanced#gulp)
 
 {% endnote %}
 

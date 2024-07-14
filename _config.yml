@@ -147,3 +147,7 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+deploy:
+  type: git
+  repo: git@18.141.207.127:/home/git/project/blog.git

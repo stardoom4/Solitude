@@ -285,7 +285,7 @@ theme_color:
 
 display_mode:
   type: auto
-  universe: false
+  universe: true
 
 related_post:
   enable: true
@@ -448,7 +448,7 @@ katex:
   copytex: true # 是否开启复制公式 / Whether to enable copy formula
 
 comment:
-  use: twikoo # waline, twikoo, valine, artalk
+  use: artalk,twikoo # waline, twikoo, valine, artalk
   commentBarrage: false # 热评开关 / Hot comment switch
   lazyload: false # 懒加载
   count: true # 评论数展示
@@ -460,6 +460,13 @@ comment:
   hot_tip: # 多人互动
     enable: true # 开启后将在文章列表显示多人互动
     count: 3 # 设置大于多少评论时显示
+
+# artalk 配置信息
+# artalk settings
+artalk:
+  server: https://art.wzsco.cn # server url / 后端地址
+  site: Solitude  # site name / 站点名
+  option: # options
 
 twikoo: # https://twikoo.js.org/
   envId: https://everfu-twikoo.netlify.app/.netlify/functions/twikoo # 你部署twikoo的地址
@@ -566,7 +573,7 @@ expire:
 # 背景图片
 # Background image
 background:
-  enable: true
+  enable: false
   img: https://img.truimo.com/2022/807b270630a51.jpg
   opacity: 0.2
 
