@@ -552,10 +552,10 @@ lure:
   enable: true
   # 跳出
   # Jump out
-  jump: "404 Not Found"
+  jump: "w(ﾟДﾟ)w 不要走！再看看嘛！"
   # 切回
   # Switch back
-  back: "ヾ(≧∇≦*)ゝ嘿嘿，上当了吧"
+  back: "ヾ(≧∇≦*)ゝ欢迎回来！"
 
 # 文章过期提醒
 # Article expiration reminder
