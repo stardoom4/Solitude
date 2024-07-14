@@ -573,8 +573,9 @@ expire:
 # 背景图片
 # Background image
 background:
-  enable: false
-  img: https://img.truimo.com/2022/807b270630a51.jpg
+  enable: true
+  light: https://s3.qjqq.cn/47/669410ec5f61f.jpeg!color
+  dark: https://s3.qjqq.cn/47/6694114c7f953.jpeg!color
   opacity: 0.2
 
 CDN:
