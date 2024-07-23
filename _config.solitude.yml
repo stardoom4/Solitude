@@ -573,7 +573,7 @@ expire:
 # 背景图片
 # Background image
 background:
-  enable: true
+  enable: false
   light: https://s3.qjqq.cn/47/669410ec5f61f.jpeg!color
   dark: https://s3.qjqq.cn/47/6694114c7f953.jpeg!color
   opacity: 0.2
