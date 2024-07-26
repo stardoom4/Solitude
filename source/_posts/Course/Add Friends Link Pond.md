@@ -1,10 +1,10 @@
 ---
-title: Hexo：添加友链鱼塘
+title: Add Friends Link Pond
 categories:
-  - 网站搭建
+  - Course
 tags:
   - Hexo
-cover: 'https://s3.qjqq.cn/47/66224075412c5.webp!color'
+cover: https://i.pinimg.com/originals/92/55/6d/92556dea468c37e1c1ebee41b7537c1b.jpg
 abbrlink: d3883050
 date: 2024-03-28 08:00:00
 recommend: true
@@ -12,39 +12,39 @@ update: 2024-03-28 08:00:00
 ---
 
 {% note success simple no-icon %}
-写在前面：主题将在 1.8.10 版本后不再内置友链鱼塘，如需使用请自行添加。
+Before we begin: Starting from version 1.8.10, the theme will no longer include the Friends Link Pond. If you want to use it, please add it manually.
 
-本教程使用Heo的友链鱼塘样式
+This tutorial uses the Friends Link Pond style of Hexo.
 {% endnote %}
 
-## 介绍
+## Introduction
 
-友链鱼塘是一种友链展示方式，可以展示友链的最新文章，让你的网站更加活跃。
+The Friends Link Pond is a way to display your friends' links and their latest articles, making your website more active.
 
-## 教程
+## Tutorial
 
-1. 使用命令创建页面
+1. Create a page using the following command:
     ```bash
     hexo new page moments
     ```
-2. 将以下内容复制到 source/moments/index.md 中
+2. Copy the following content to source/moments/index.md:
 ```markdown
 ---
-title: 友链鱼塘
-desc: 最新文章订阅
+title: Friends Link Pond
+desc: Latest article subscription
 date: 2024-01-28 21:29:15
 type: "banner"
 cover: ''
-leftend: 使用 友链朋友圈 订阅友链最新文章
+leftend: Subscribe to the latest articles of your friends' links using Friends Link Pond
 ---
-## 🐟 鱼塘
+## 🐟 Pond
 <div id="hexo-circle-of-friends-root"></div>
 <script>
     let UserConfig = {
-        private_api_url: 'http://192.168.31.44:8000/', /* 填写你的api地址 */
-        page_turning_number: 12, /* 点击加载更多时，一次最多加载几篇文章，默认10 */
-        error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c', /* 头像加载失败时，默认头像地址 */
-        sort_rule: 'created', /* 进入页面时第一次的排序规则 */
+        private_api_url: 'http://192.168.31.44:8000/', /* Replace with your API URL */
+        page_turning_number: 12, /* Maximum number of articles to load when clicking "Load More", default is 10 */
+        error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c', /* Default avatar URL when loading fails */
+        sort_rule: 'created', /* Sorting rule for the first time entering the page */
     };
 </script>
    
@@ -58,32 +58,32 @@ leftend: 使用 友链朋友圈 订阅友链最新文章
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@master/moments5/bundle.js"></script>
 ```
 
-3. 修改 private_api_url 为你的api地址
-4. 重新生成网站
+3. Modify the private_api_url to your API URL.
+4. Regenerate your website using the following command:
     ```bash
     hexo clean && hexo g
     ```
 
-## 添加钓鱼
+## Adding Fishing
 
-1. 在 moments/index.md 顶部（front-matter以下）添加以下代码
+1. Add the following code at the top of moments/index.md (below the front-matter):
 ```markdown
 <div class="title-h2-a">
     <div class="title-h2-a-left">
-        <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 钓鱼</h2>
+        <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 Fishing</h2>
         <a href="javascript:fetchRandomPost();" id="random-post-start" style="transition-duration: 0.3s; transform: rotate(63000deg); opacity: 1;" data-pjax-state="">
             <i class="solitude st-restart-line"></i>
         </a>
     </div>
     <div class="title-h2-a-right">
-        <a href="/links/" data-pjax-state="">全部友链</a>
+        <a href="/links/" data-pjax-state="">All Links</a>
     </div>
 </div>
 <div id="random-post"></div>
 
 <script>
 var fdata = {
-    apiurl: "http://192.168.31.44:8000/", /* 填写你的api地址 */
+    apiurl: "http://192.168.31.44:8000/", /* Replace with your API URL */
     defaultFish: 100,
     hungryFish: 100,
 }
@@ -92,7 +92,7 @@ var fdata = {
 <script type="text/javascript" src="https://cdn.cbd.int/solitude-source@1.0.5/js/moment/random_post.min.js"></script>
 ```
 
-2. 在 moments/index.md 中的 style 标签里添加以下代码
+2. Add the following code inside the style tag in moments/index.md:
 ```css
 #random-post {
   min-height: 32px;
@@ -148,34 +148,34 @@ var fdata = {
 }
 ```
 
-## 完整代码
+## Complete Code
 
 ```markdown
 ---
-title: 友链鱼塘
-desc: 最新文章订阅
+title: Friends Link Pond
+desc: Latest article subscription
 date: 2024-01-28 21:29:15
 type: "banner"
 cover: ''
-leftend: 使用 友链朋友圈 订阅友链最新文章
+leftend: Subscribe to the latest articles of your friends' links using Friends Link Pond
 ---
 
 <div class="title-h2-a">
     <div class="title-h2-a-left">
-        <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 钓鱼</h2>
+        <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 Fishing</h2>
         <a href="javascript:fetchRandomPost();" id="random-post-start" style="transition-duration: 0.3s; transform: rotate(63000deg); opacity: 1;" data-pjax-state="">
             <i class="solitude st-restart-line"></i>
         </a>
     </div>
     <div class="title-h2-a-right">
-        <a href="/links/" data-pjax-state="">全部友链</a>
+        <a href="/links/" data-pjax-state="">All Links</a>
     </div>
 </div>
 <div id="random-post"></div>
 
 <script>
 var fdata = {
-    apiurl: "http://192.168.31.44:8000/", /* 填写你的api地址 */
+    apiurl: "http://192.168.31.44:8000/", /* Replace with your API URL */
     defaultFish: 100,
     hungryFish: 100,
 }
@@ -183,15 +183,15 @@ var fdata = {
 
 <script type="text/javascript" src="https://cdn.cbd.int/solitude-source@1.0.5/js/moment/random_post.min.js"></script>
 
-## 🐟 鱼塘
+## 🐟 Pond
 
 <div id="hexo-circle-of-friends-root"></div>
 <script>
     let UserConfig = {
-        private_api_url: 'http://192.168.31.44:8000/', /* 填写你的api地址 */
-        page_turning_number: 12, /* 点击加载更多时，一次最多加载几篇文章，默认10 */
-        error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c', /* 头像加载失败时，默认头像地址 */
-        sort_rule: 'created' /* 进入页面时第一次的排序规则 */
+        private_api_url: 'http://192.168.31.44:8000/', /* Replace with your API URL */
+        page_turning_number: 12, /* Maximum number of articles to load when clicking "Load More", default is 10 */
+        error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c', /* Default avatar URL when loading fails */
+        sort_rule: 'created' /* Sorting rule for the first time entering the page */
     }
 </script>
 <style>
@@ -251,11 +251,8 @@ var fdata = {
   color: var(--efu-secondtext);
 }
 </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@master/mainColor/heoMainColor.css">
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@master/moments5/app.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@master/moments5/bundle.js"></script>
 ```
 
-## 效果
+## Result
 
 ![](https://s3.qjqq.cn/47/66223d41d13b2.webp!color)
