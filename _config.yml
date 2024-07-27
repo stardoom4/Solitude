@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Solitude
-subtitle: 'An elegant Theme for Hexo'
-description: An elegant Hexo theme that supports lazy loading, PWA, Latex, and multiple comment systems.
-keywords: 'Ever Fu,Solitude'
-author: Ever Fu
+title: Wunder
+subtitle: 'Final days on the planet'
+description: Final days on the planet.
+keywords: 'Wunder, Exodon'
+author: Wunder the Wise
 language: en-US
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://everfu.github.io/Solitude/
+url: https://stardoom4.github.io/Solitude/
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
