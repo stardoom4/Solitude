@@ -251,14 +251,14 @@ post:
       url: /about/
 
 theme_color:
-  dark: "#FF6B6B"
-  dark_op: "#FF6B6B23"
-  dark_op_deep: "#FF6B6BDD"
-  dark_none: "#FF6B6B00"
-  light: "#4ECDC4"
-  light_op: "#4ECDC423"
-  light_op_deep: "#4ECDC4DD"
-  light_none: "#4ECDC401"
+  dark: "#8f4dcc" # Dark mode
+  dark_op: "#f2b94b23" # Dark mode transparent
+  dark_op_deep: "#f2b94bdd" # Dark mode transparent dark
+  dark_none: "#f2b94b00" # Dark mode transparent colorless
+  light: "#425AEF" # Light mode
+  light_op: "#4259ef23" # Light mode transparent
+  light_op_deep: "#4259efdd" # Light mode transparent dark
+  light_none: "#4259ef01" # Light mode transparent colorless
 
 display_mode:
   type: auto
@@ -283,7 +283,6 @@ footer:
       Polar: https://polar.sh/everfu
   randomlink: true
   privacy: /privacy/
-  license: /license/
   links:
     - name: Theme
       url: https://github.com/everfu/hexo-theme-solitude
@@ -382,6 +381,12 @@ pwa:
   bookmark_icon: /img/pwa/favicon.ico # 书签图标
   favicon_32_32: /img/pwa/favicon_32.ico # 32x32图标
   favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
+
+background:
+  enable: true
+  opacity: .2
+  dark: https://i.pinimg.com/originals/d8/b3/9d/d8b39d12b653810db452c437211aeb2e.png
+  light: https://i.pinimg.com/originals/93/57/38/935738ed9657b296c2ef0ebd2151eb66.jpg
 
 right_menu:
   enable: true
