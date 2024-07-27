@@ -1,73 +1,49 @@
 {
-    "name": "Ever Fu",
-    "short_name": "Ever Fu",
+    "name": "Solitude",
+    "short_name": "Solitude",
     "theme_color": "#0E83CD",
     "background_color": "#0E83CDdd",
-    "description": "嘿，我是 Ever Fu，一个开源工作者，对 Web 开发和设计充满热情。目前是一名在校生，希望我的开发能够给你代码帮助。",
+    "description": "An elegant Hexo theme that supports lazy loading, PWA, Latex, and multiple comment systems.",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
-    "lang": "zh-CN",
+    "lang": "en-US",
     "id": "/",
     "icons": [
       {
-        "src": "https://s3.qjqq.cn/47/663999deb00f4.webp!color",
+        "src": "/img/pwa/favicon_16.png",
         "sizes": "16x16",
-        "type": "image/webp",
+        "type": "image/png",
         "purpose": "any"
       },
       {
-        "src": "https://s3.qjqq.cn/47/663999deb00f4.webp!color",
+        "src": "/img/pwa/favicon_16.png",
         "sizes": "16x16",
-        "type": "image/webp",
+        "type": "image/png",
         "purpose": "maskable"
       },
       {
-        "src": "https://s3.qjqq.cn/47/663999c46d48d.webp!color",
+        "src": "/img/pwa/favicon_32.png",
         "sizes": "32x32",
-        "type": "image/webp",
+        "type": "image/png",
         "purpose": "any"
       },
       {
-        "src": "https://s3.qjqq.cn/47/663999c46d48d.webp!color",
+        "src": "/img/pwa/favicon_32.png",
         "sizes": "32x32",
-        "type": "image/webp",
+        "type": "image/png",
         "purpose": "maskable"
       },
       {
         "src": "https://s3.qjqq.cn/47/663999a5ee230.webp!color",
         "sizes": "64x64",
-        "type": "image/webp",
+        "type": "image/png",
         "purpose": "any"
       },
       {
-        "src": "https://s3.qjqq.cn/47/663999a5ee230.webp!color",
-        "sizes": "64x64",
-        "type": "image/webp",
-        "purpose": "maskable"
-      },
-      {
-        "src": "https://s3.qjqq.cn/47/66399928e7379.webp!color",
-        "sizes": "128x128",
-        "type": "image/webp",
-        "purpose": "any"
-      },
-      {
-        "src": "https://s3.qjqq.cn/47/66399928e7379.webp!color",
-        "sizes": "128x128",
-        "type": "image/webp",
-        "purpose": "maskable"
-      },
-      {
-        "src": "https://s3.qjqq.cn/47/66399a6ff1259.webp!color",
-        "sizes": "144x144",
-        "type": "image/webp",
-        "purpose": "any"
-      },
-      {
-        "src": "https://s3.qjqq.cn/47/66399a6ff1259.webp!color",
-        "sizes": "144x144",
-        "type": "image/webp",
+        "src": "/img/pwa/favicon.png",
+        "sizes": "96x96",
+        "type": "image/png",
         "purpose": "maskable"
       }
     ],
