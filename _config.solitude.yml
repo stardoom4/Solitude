@@ -1,7 +1,7 @@
 site:
   name:
     class: text
-    custom: Solitude
+    custom: Wunder
   # 网页icon
   # Web icon
   siteIcon: https://i.postimg.cc/MpGShdhd/favicon.png
@@ -30,32 +30,32 @@ hometop:
     # Large text displayed in the upper left corner
     # tip：可使用html标签
     # tip: html tags be used
-    title: Tranquility <br>and love life
+    title: Lying on the ground<br>feeling like a dying man.
     # 左上角显示小文字
     # Small text displayed in the upper left corner
-    url: Hexo Theme Solitude
+    url: Michael Kiwanuka
     # 轮播icon
     # Carousel icon
     # tip: 76x76 size
     icon:
-      HTML: # 名字 / Name
-        img: https://i.postimg.cc/vBWVnY8q/html.png # 图片 / Image
-        color: "#e9572b" # 背景色 / Background color
-      JS:
-        img: https://i.postimg.cc/3N10Ltv2/js.png
-        color: "#f7cb4f"
-      Docker:
-        img: https://i.postimg.cc/8Pk6Fg24/docker.png
-        color: "#57b6e6"
-      Flutter:
-        img: https://i.postimg.cc/hPC7T3gB/flutter.png
-        color: "#ffffff"
-      WebPack:
-        img: https://i.postimg.cc/dVLZBmtT/webpack.png
-        color: "#2e3a41"
-      Git:
-        img: https://i.postimg.cc/nhgjwjCS/git.png
-        color: "#df5b40"
+      #HTML: # 名字 / Name
+        #img: https://i.postimg.cc/vBWVnY8q/html.png # 图片 / Image
+        #color: "#e9572b" # 背景色 / Background color
+      #JS:
+        #img: https://i.postimg.cc/3N10Ltv2/js.png
+        #color: "#f7cb4f"
+      #Docker:
+        #img: https://i.postimg.cc/8Pk6Fg24/docker.png
+        #color: "#57b6e6"
+      #Flutter:
+        #img: https://i.postimg.cc/hPC7T3gB/flutter.png
+        #color: "#ffffff"
+      #WebPack:
+        #img: https://i.postimg.cc/dVLZBmtT/webpack.png
+        #color: "#2e3a41"
+      #Git:
+        #img: https://i.postimg.cc/nhgjwjCS/git.png
+        #color: "#df5b40"
 
   # 左下跳转按钮
   # Banner lower left jump button
@@ -69,13 +69,13 @@ hometop:
     sup: Top
     # 左下角大字
     # Large text in the lower left corner
-    title: Solitude Documentation
+    title: Preliminary Notes
     # 点击跳转链接
     # Click the jump link
-    url: https://solitude.js.org/
+    url: https://www.projectrho.com/public_html/rocket/prelimnotes.php
     # 显示背景图片
     # Display background image
-    img: https://i.postimg.cc/fy8k7kGK/668da89f2b920.webp
+    img: https://www.projectrho.com/public_html/rocket/images/realdesigns/IsvDiagram.jpg
     # 阴影颜色
     # Shadow color
     color: "none"
@@ -94,10 +94,10 @@ aside:
   card:
     style: 0
     author:
-      img: https://github.com/everfu.png
+      img: https://i.pinimg.com/736x/35/68/37/356837b021ad641f3732af9f1c2d044c.jpg
       sticker:
     url: /about/
-    content: Share new knowledge and record the moments of life.
+    content: Trying to learn.
     content2: This site is powered by Hexo and has the theme of Solitude.
     sayhello: # 样式为2时无效
       morning: ✨ Good morning. It's a new day
@@ -106,12 +106,12 @@ aside:
       night: early bedtime
       goodnight: Good night 😴
     sayhello2: # 样式为2时无效
+      - Hello There.
       - You'll make it.
       - You're gonna make it.
       - Good luck, stranger.
     information: # 样式为1时请不要超过4个
-      Github: https://github.com/everfu || fab fa-github
-      Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+      Github: https://github.com/stardoom4 || fab fa-github
 
   toc:
     post: true
@@ -185,7 +185,7 @@ post:
     # -  # 默认图片 / default cover
     # 文章发布默认地址
     # default post locate
-    locate: China
+    locate: India
     # 文章默认版权
     # default post copyright
     copyright:
@@ -194,7 +194,7 @@ post:
         url: /about/ # 点击头像跳转地址
         img: # 显示头像，不填写默认显示site_icon
       license: CC BY-NC-SA 4.0
-      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
   # 顶部文章简介
   # Top article introduction
   meta:
@@ -208,7 +208,7 @@ post:
   # 打赏
   # reward
   award:
-    enable: true
+    enable: false
     appreciators: /about # 赞赏记录 / Appreciative records
     title: Thank you for your appreciation.
     desc: Because of your support, I realized the value of writing articles.
@@ -225,15 +225,12 @@ post:
   share:
     enable: true
     list:
-      - qq
-      - weibo
       - twitter
       - facebook
       - telegram
       - whatsapp
       - linkedin
       - link
-      - qrcode
   # 版权中订阅按钮跳转链接，填写地址后开启
   # Subscription button jump link in copyright
   rss: /atom.xml
@@ -244,7 +241,7 @@ post:
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
   footer:
     enable: true
-    desc: From Ever Fu's article.
+    desc: May the force be with you.
     button: # 跳转按钮
       enable: false
       name: More
@@ -268,19 +265,13 @@ footer:
   information:
     author: false
     left:
-      Github: https://github.com/everfu || fab fa-github
-      Email: mailto:o@efu.me || fas fa-envelope
-    right:
-      Bilibili: https://space.bilibili.com/1329819902 ||  fab fa-bilibili
-      Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+      Github: https://github.com/stardoom4 || fab fa-github
 
   group:
     Project:
       Document: https://solitude.js.org
-      Github: https://github.com/everfu/hexo-theme-solitude
-    Sponsor:
-      Patreon: https://www.patreon.com/everfu
-      Polar: https://polar.sh/everfu
+      Github: https://github.com/stardoom4/solitude
+
   randomlink: true
   privacy: /privacy/
   links:
