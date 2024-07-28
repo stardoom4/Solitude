@@ -38,12 +38,12 @@ hometop:
     # Carousel icon
     # tip: 76x76 size
     icon:
-      HTML: # 名字 / Name
-        img: https://i.postimg.cc/vBWVnY8q/html.png # 图片 / Image
-        color: "#e9572b" # 背景色 / Background color
-      JS:
-        img: https://i.postimg.cc/3N10Ltv2/js.png
-        color: "#f7cb4f"
+      #HTML: # 名字 / Name
+        #img: https://i.postimg.cc/vBWVnY8q/html.png # 图片 / Image
+        #color: "#e9572b" # 背景色 / Background color
+      #JS:
+        #img: https://i.postimg.cc/3N10Ltv2/js.png
+        #color: "#f7cb4f"
       #Docker:
         #img: https://i.postimg.cc/8Pk6Fg24/docker.png
         #color: "#57b6e6"
@@ -53,9 +53,9 @@ hometop:
       #WebPack:
         #img: https://i.postimg.cc/dVLZBmtT/webpack.png
         #color: "#2e3a41"
-      Git:
-        img: https://i.postimg.cc/nhgjwjCS/git.png
-        color: "#df5b40"
+      #Git:
+        #img: https://i.postimg.cc/nhgjwjCS/git.png
+        #color: "#df5b40"
 
   # 左下跳转按钮
   # Banner lower left jump button
@@ -403,3 +403,5 @@ CDN:
   third_party: cdnjs
   version: true
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
+
+console_plus: true
