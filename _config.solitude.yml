@@ -4,8 +4,8 @@ site:
     custom: Wunder
   # 网页icon
   # Web icon
-  siteIcon: https://i.postimg.cc/MpGShdhd/favicon.png
-  icon: https://i.postimg.cc/MpGShdhd/favicon.png
+  siteIcon: https://i.pinimg.com/originals/72/a8/f6/72a8f65faf85b9f69c2d3395a2e04c49.jpg
+  icon: https://i.pinimg.com/originals/86/c9/71/86c97170f37947508c3d8d1c95d815ad.jpg
 
 nav:
   menu:
@@ -98,7 +98,7 @@ aside:
       sticker:
     url: /about/
     content: Trying to learn.
-    content2: This site is powered by Hexo and has the theme of Solitude.
+    content2: This site is powered by Hexo and has the theme Solitude.
     sayhello: # 样式为2时无效
       morning: ✨ Good morning. It's a new day
       noon: It's time for a midday break
@@ -152,7 +152,7 @@ aside:
     runtimeenable: true
     # 格式：yyyy-MM-dd hh-mm-ss
     # Format: yyyy-MM-dd hh-mm-ss
-    runtime: "2023-04-20 00:00:00"
+    runtime: "2024-07-20 00:00:00"
 
 # 首页文章配置信息
 # Configure information on the home page
@@ -397,7 +397,11 @@ right_menu:
       id:
       class:
       icon: fas fa-tags
-
+    - name: Site
+      click: https://wunder.pages.dev
+      id:
+      class:
+      
 CDN:
   internal: local
   third_party: cdnjs
